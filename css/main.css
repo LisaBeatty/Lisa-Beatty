@@ -1,0 +1,222 @@
+@font-face {
+font-family: californiabright;
+src: url('../fonts/californiabright.otf') format('opentype');
+}
+
+/********BASE STYLES********/
+
+body{
+  font-family: 'Lato', sans-serif;
+  color:#1A2930;
+  font-size: 18px;
+}
+body h1{
+  font-family: 'californiabright';
+  font-size: 80px;
+  color: #00303F;
+}
+body h2{
+  font-family: 'Italiana', serif;
+  color: #DCAE1D;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+body h3{
+  font-family: 'californiabright';
+  font-size: 80px;
+  color: #00303F;
+}
+body h4{
+  font-family: 'Italiana', serif;
+  color: #DCAE1D;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+header, #about, footer {
+  height: 600px;
+}
+#work {
+  height: 525px;
+}
+/******GRID******/
+.full-width{
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width{
+    width: 600px;
+    float: left;
+}
+.third-width{
+    width: 400px;
+    float: left;
+}
+
+/*******HEADER*********/
+
+header{
+    background: url('../img/door.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#button span{
+  margin-top: 65px;
+  margin-left: 40px;
+  color: #DCAE1D;
+  background-color: #00303F;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  font-family: Italiana;
+  border: 1px solid #DCAE1D;
+}
+
+nav {
+    float: right;
+    padding: 75px 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform:uppercase;
+    text-decoration:none;
+    font-size: 18px;
+    color: #7A9D96;
+    padding-left: 35px;
+}
+header h1, h2{
+  width:700px;
+  clear:both;
+  text-align: center;
+}
+header h1 {
+  padding-top: 80px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+header h2 {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+/******ABOUT********/
+#about {
+  background: #CAE4DB;
+}
+
+#about img#lisa{
+  border: 3px solid #DCAE1D;
+  width:250px;
+  margin: 125px 170px 120px 150px;
+}
+#about .half-width #about-text{
+  margin: 120px 140px 120px 0px;
+}
+#about h3{
+  font-size: 70px;
+  margin-top: 0px;
+  margin-bottom: -20px;
+}
+#about h2{
+  color: #7A9D96;
+  text-align: left;
+}
+
+/******WORK**********/
+
+#work {
+  text-align: center;
+  padding-top: 30px;
+}
+#work img {
+  width: 300px;
+  height: 125px;
+  border: 1px solid #DCAE1D;
+  margin-bottom: 25px;
+}
+
+/*******CONTACT*********/
+#contact {
+  background: #CAE4DB;
+  text-align: center;
+  padding-top: 25px;
+}
+#contact span{
+  background-color: #00303F;
+  border: 1px solid #DCAE1D;
+  color: #DCAE1D;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  font-family: Italiana;
+  text-transform: lowercase;
+  margin-top: 50px;
+}
+#contact p{
+  text-transform: uppercase;
+  font-size: 28px;
+}
+#contact a {
+  text-decoration:none;
+  color:#DCAE1D;
+  font-size: 28px;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul i {
+    font-size: 35px;
+    padding-left: 30px;
+    margin-right: 60px;
+    text-decoration:none;
+    color:#DCAE1D;
+}
+#copyright h4 {
+  font-size: 14px;
+  text-transform: none;
+  color: #00303F;
+}
+
+/******PORTFOLIO********/
+
+#portfolio header{
+  height: 600px;
+  background: url('../img/river.jpg');
+  background-repeat: no-repeat;
+  background-position:right;
+}
+
+/*******PROJECTS********/
+
+.projects {
+  text-align:center;
+}
+.projects img{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.projects h4 {
+    color: #00303F;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+#jubilee {
+  background: #CAE4DB;
+}
+#rogue {
+  background: #DCAE1D;
+}
+#recipes {
+  background:#FFFFFF;
+}
+#vision {
+  background: #7A9D96;
+}
